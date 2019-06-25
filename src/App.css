@@ -31,3 +31,140 @@
     transform: rotate(360deg);
   }
 }
+
+.Header{
+  text-align: center;
+  color: #c7ca13;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.Header table{
+  margin: 0 auto;
+  margin-top: -2%;
+}
+
+.CharacterTable{
+  font-size: 2em;
+  width: 100%;
+}
+
+.CharacterTable tbody tr{
+  color: white;
+  background-color:   rgb(49, 50, 56, 0.5);
+}
+
+#Container{
+  margin: 0 auto;
+  width: 1100px;
+  min-width: 600px;
+  overflow: auto;
+  clear: both;
+  text-align: center;
+  background-color: rgba(40,44,52,0.5);
+}
+
+#CharacterSelection{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+#CharacterSelection div{
+  width: 50px;
+  height: 50px;
+  background: black;
+}
+
+#CharacterSelection img{
+  width: 300px;
+  height: 75px;
+  object-fit: fill
+}
+
+#Container div{
+  min-width: 15%;
+}
+
+#Container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  padding: 10px;
+  display: inline-block;
+  color: white;
+}
+
+.left .right{
+  width: 33%;
+}
+
+.middle{
+  min-width: 10%;
+  width: 100px;
+  text-align: center
+}
+
+#stats{
+  font-size: 2em;
+  width: 100%;
+  color: #c7ca13;
+}
+
+.buttonContainer{
+  text-align: center;
+  padding: 2em;
+}
+
+#button{
+  font-size: 3em;
+}
+
+.loadingVerticalAlign{
+  font-size: 2em;
+  color: #c7ca13;
+  height: 0px;
+  transform: translateY(-250px);
+}
+
+#canvas{
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  z-index: -1;
+}
+
+.hidden{
+  display: none;
+}
+
+.declareWinner{
+  text-align: center;
+  color: #c7ca13;
+}
+
+.title{
+  font-size: 4em;
+  font-weight: bold;
+  color: #c7ca13;
+}
+
+.scenario{
+  font-size: 3em;
+  vertical-align: 50%;
+  color: #c7ca13;
+  font-weight: bold;
+}
+
+.scenario img{
+  height: 1.5em;
+}
+
+#winnerBox > div{
+  transform: translateY(15%);
+}
