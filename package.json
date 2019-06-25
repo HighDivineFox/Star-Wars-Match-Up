@@ -8,7 +8,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://highdivinefox.github.io/Star-Wars-Match-Up",
+  "homepage": "https://highdivinefox.github.io/Star-Wars-Match-Up/build",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
